@@ -19,7 +19,7 @@ logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
 logging.getLogger('asyncio').setLevel(logging.CRITICAL)
 
 BASE_API      = "http://IP_ADDRESS:8123/api/"  # URL to your HA instance.
-DEV_INPUT     = "/dev/bt-keyboard_"             
+DEV_INPUT     = "/dev/remote_"             
 API_KEY       = "API_KEY_STRING"
 HA_EVENT_NAME = "bt_remote" # Arbitrary name of the event that will get fired.
 GRAB_DEVICE   = True # If set to True, the devices will be locked to this script and the system will not receive any events.
