@@ -1,1 +1,1 @@
-SUBSYSTEMS=="input", ATTRS{name}=="keyboard name from evtest", ENV{LIBINPUT_IGNORE_DEVICE}="1", SYMLINK+="bt-keyboard_consumer"
+SUBSYSTEMS=="input", ATTRS{name}=="keyboard name from evtest", ENV{LIBINPUT_IGNORE_DEVICE}="1", SYMLINK+="remote_abc"
